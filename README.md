@@ -24,10 +24,6 @@
 
 Проверка кода линтером - `make lint`
 
-### (!) Для корректной работы введите API ключ в `config.py`
-
-`os.environ['EXCHANGERATE_API_KEY'] = ""`
-
 ## Основные операции с системой
 
 1. Регистрация нового пользователя - `register --username <name> --password <pass>`
