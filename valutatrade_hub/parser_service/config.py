@@ -12,7 +12,6 @@ class ParserConfig:
     """
     Класс для параметров парсера
     """
-    # os.environ['EXCHANGERATE_API_KEY'] = ""
     EXCHANGERATE_API_KEY: str = os.getenv("EXCHANGERATE_API_KEY", "") 
     
     COINGECKO_URL: str = "https://api.coingecko.com/api/v3/simple/price"
